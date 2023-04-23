@@ -1,0 +1,8 @@
+{
+   id = everybee.wolfstaffmod,
+   name = Wolf Staff Mod,
+   version = 0.1,
+   gameVersion = 0.21.29,
+   description = Adds a new summon staff to the game that summons ice wolves,
+   author = EveryBee
+}

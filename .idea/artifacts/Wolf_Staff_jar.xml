@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Wolf Staff:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Wolf_Staff_jar</output-path>
+    <root id="archive" name="Wolf Staff.jar">
+      <element id="module-output" name="Wolf Staff" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../../Program Files (x86)/Steam/steamapps/common/Necesse/Necesse.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
