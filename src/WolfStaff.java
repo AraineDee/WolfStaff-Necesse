@@ -11,7 +11,7 @@ import necesse.inventory.recipe.Recipes;
 @ModEntry
 public class WolfStaff {
 
-//i suck girlcock
+
     public void init() {
         ItemRegistry.registerItem("wolfstaff", new WolfStaffToolItem(), 200.0F, true);
 
