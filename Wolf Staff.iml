@@ -16,5 +16,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="net.bytebuddy.byte.buddy" level="application" />
   </component>
 </module>

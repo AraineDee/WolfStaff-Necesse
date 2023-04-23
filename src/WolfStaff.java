@@ -2,6 +2,7 @@ import necesse.engine.modLoader.annotations.ModEntry;
 import necesse.engine.registries.ItemRegistry;
 import necesse.engine.registries.MobRegistry;
 import necesse.engine.registries.RecipeTechRegistry;
+import necesse.inventory.item.Item;
 import necesse.inventory.recipe.Ingredient;
 import necesse.inventory.recipe.Recipe;
 import necesse.inventory.recipe.Recipes;
@@ -9,6 +10,8 @@ import necesse.inventory.recipe.Recipes;
 
 @ModEntry
 public class WolfStaff {
+
+
     public void init() {
         ItemRegistry.registerItem("wolfstaff", new WolfStaffToolItem(), 200.0F, true);
 
@@ -24,7 +27,6 @@ public class WolfStaff {
                 new Ingredient("oaklog", 1)
             }
         ).showAfter("woodboat"));
-
     }
 }
 
